@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include andstirred *.css
+recursive-include andstirred *.csv
+recursive-include andstirred *.html
+recursive-include andstirred *.ico
+recursive-include andstirred *.js
+recursive-include andstirred *.json
+recursive-include andstirred *.md
+recursive-include andstirred *.png
+recursive-include andstirred *.py
+recursive-include andstirred *.svg
+recursive-include andstirred *.txt
+recursive-exclude andstirred *.pyc
